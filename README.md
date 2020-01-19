@@ -11,10 +11,12 @@ Mini-scripts to expedite drudgery of managing files, metadata, et cetera.
 ```
 gem install bundler
 bundle install
+
+bundle exec ruby _SCRIPT_.rb
 ```
+
+## Scripts
+ - `mu_meta.rb`: generate JSON file of music metadata
 
 ## Testing
   - Lint: `rubocop`
-
-## Features
- - Generate JSON file of music metadata
